@@ -1,0 +1,105 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$1NZfTSm6EgO44zaW1rN24V$MJav8kFv+kBnU4sf5coLEA9WPkpa4jAkogniHrCSTe8=",
+    "last_login": "2021-08-28T00:13:11.784Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-08-28T00:12:55.838Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4hssqiozji57g2vhwzw6mizm0ze6wlqp",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEwMIAu3fsNZHhJ1UBS2pXx322TLnR7zrn3zTytS_XryLOfErswyU6_LFB85raL9KB27zz2tsxT4HvCDzv4raf8uh7t30GlUbe1A9BAWkSjMTgFrgAJRdKSBVWMQYeCTCzFJCSdNZ4taYw2bgCsVOzzBbhnNw8:1mJlyB:H5X9BZXi_507vaaHWjaibZskqTzN_uUaIP0NnJQSJk8",
+    "expire_date": "2021-09-11T00:13:11.794Z"
+  }
+},
+{
+  "model": "core.waifu",
+  "pk": 1,
+  "fields": {
+    "alt": "Something",
+    "imageUrl": "https://1.bp.blogspot.com/-ZuqBUH0_yaA/Xr2uj9I047I/AAAAAAAAYto/pA7GkN0_JkcKMhIW-Y_2HKEJujMUZwXJgCLcBGAsYHQ/s1600/Miku%2BNakano%2Bwaifu.webp"
+  }
+},
+{
+  "model": "core.waifu",
+  "pk": 2,
+  "fields": {
+    "alt": "Something else",
+    "imageUrl": "https://rlv.zcache.com.br/poster_orelhas_de_gato_waifu-r59987153c31a4e5abd7721bfeeb4f494_k9077_8byvr_540.jpg"
+  }
+},
+{
+  "model": "core.waifu",
+  "pk": 3,
+  "fields": {
+    "alt": "Taken from twitter",
+    "imageUrl": "https://pbs.twimg.com/media/EiAhMAcVgAES5bX.jpg"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-08-28T00:13:25.319Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "core",
+      "waifu"
+    ],
+    "object_id": "1",
+    "object_repr": "Waifu object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-08-28T00:24:05.772Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "core",
+      "waifu"
+    ],
+    "object_id": "2",
+    "object_repr": "Something else",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-08-28T00:25:28.421Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "core",
+      "waifu"
+    ],
+    "object_id": "3",
+    "object_repr": "Taken from twitter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
