@@ -37,7 +37,7 @@ export default {
     const waifus = ref([])
 
     onBeforeMount(async() => {
-      const { data: response } = await api.get('waifus/')
+      const { data: response } = await api.get('waifu/')
 
       waifus.value = response.data
     })
