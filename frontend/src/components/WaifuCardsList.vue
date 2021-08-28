@@ -1,5 +1,5 @@
 <script>
-import WaifuCard from './WaifuCard.vue'
+import WaifuCard from "./WaifuCard.vue";
 
 export default {
   props: {
@@ -11,13 +11,25 @@ export default {
   setup(props) {
     return {
       ...props,
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <template>
-  <div class="grid grid-cols-3 gap-3 p-3">
-    <waifu-card v-for="waifu in waifus" :waifu="waifu" :key="waifu.id" />
-  </div>
+  <section
+    class="
+      min-h-[calc(100vh-4rem)]
+      py-8
+      px-4
+      lg:px-0
+      mx-auto
+      w-full
+      max-w-screen-lg
+    "
+  >
+    <div class="grid grid-cols-3 gap-4">
+      <waifu-card v-for="waifu in waifus" :waifu="waifu" :key="waifu.id" />
+    </div>
+  </section>
 </template>
